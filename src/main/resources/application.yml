@@ -1,0 +1,29 @@
+spring:
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/routeshare
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+  kafka:
+    bootstrap-servers: localhost:9092
+
+server:
+  port: 8080
