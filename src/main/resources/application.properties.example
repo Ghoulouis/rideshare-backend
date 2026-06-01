@@ -1,3 +1,5 @@
 spring.application.name=
 jwt.secret=
 jwt.expiration=
+spring.data.redis.host=
+spring.data.redis.port=
